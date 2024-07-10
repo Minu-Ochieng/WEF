@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "AclonicaFont";
+  src: url("../fonts/Aclonica.ttf");
+}
+body {
+  font-family: "AclonicaFont";
+}
+.logo {
+  width: 60px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #f24c27;
+  padding: 90px;
+  font-size: 32px;
+}
+.active {
+  color: #17736a;
+}

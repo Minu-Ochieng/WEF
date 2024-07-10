@@ -1,0 +1,61 @@
+.page-intro {
+  text-align: center;
+}
+.dot-top {
+  background-color: #17736a;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 84%;
+}
+.top-name {
+  font-size: 128px;
+  color: #17736a;
+}
+.podcast-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+.m-box {
+  width: 350px;
+}
+.middle-section {
+  display: flex;
+}
+.dot {
+  background-color: #17736a;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 27%;
+  margin-bottom: 2%;
+}
+.release-date {
+  background-color: #f24c27;
+  height: 527px;
+  position: relative;
+  padding: 8px;
+  display: flex;
+}
+.release {
+  opacity: 45%;
+}
+.joinText {
+  width: 20%;
+  font-size: 80px;
+  position: absolute;
+  color: white;
+  margin-top: -13%;
+  margin-left: 5%;
+}
+.release {
+  width: 794px;
+}
+.mic {
+  margin-left: 10%;
+  width: 800px;
+}
+.container {
+  margin-left: 18%;
+}
