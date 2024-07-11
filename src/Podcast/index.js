@@ -1,7 +1,9 @@
 import "./index.css";
+import React from "react";
 import mbox from "../image/mbox.png";
 import soon from "../image/soon.jpeg";
 import mic from "../image/mic.png";
+import { FaPlay } from "react-icons/fa";
 
 const Podcast = () => {
   return (
@@ -22,7 +24,11 @@ const Podcast = () => {
         <div className="release-date">
           <div className="container">
             <img src={soon} alt="Coming soon" className="release" />
-            <div className="joinText">Join the comunity</div>
+            <div className="joinText">
+              Join the comunity
+              <FaPlay />
+              <button className="episodes">Episodes</button>
+            </div>
           </div>
           <img src={mic} alt="Mic" className="mic" />
         </div>
