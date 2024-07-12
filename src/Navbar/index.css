@@ -1,19 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-
-
-
-
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     font-size: 20px;
-    font-family: "Aclonica", sans-serif;
-  
   }
   .logo{
     width: 28%;
@@ -33,18 +23,16 @@
 
 
 }
-.nav-menu li.active {
-  font-weight: bold;
-  color: #1D736A;
+.nav-menu li.active{
+    font-weight: bold;
+    color: #1D736A;
 }
-  .nav-menu {
+.nav-menu{
     list-style-type: none;
     display: flex;
     gap: 50px;
     padding-right: 5%;
-   
-    
-  }
+}
   .nav-menu li {
     cursor: pointer;
     padding-left: 2%;
@@ -54,13 +42,14 @@
     color: #1D736A;
     
   }
-  .nav-menu li.active::after {
+  .nav-menu li.active::after{
     content: "";
     display: block;
     height: 2px;
     width: 100%;
    color: #1D736A;
   }
+
   .icon {
     display: none;
   }
@@ -88,8 +77,8 @@
   
 
   
-  @media only screen and (max-width: 768px) {
-   .nav-menu {
+  @media only screen and (max-width: 768){
+    .nav-menu{
       position: absolute;
       right: 0;
       top: 0px;
@@ -104,11 +93,9 @@
       
       
     }
-  
-   .nav-menu.open {
-      display: block;
-    }
-  
+  .nav-menu.open{
+    display: block;
+  }
    .icon {
       display: block;
       border: none;
@@ -148,13 +135,13 @@
         padding: 6px 10px;
         font-size: 18px;
       }
-      .nav-menu.open {
+      .nav-menu.open{
         max-height: 100%; 
       }
-      .nav-menu li.active {
-        font-weight: bold;
-        color: #1D736A;
-      }
+   .nav-menu li.active{
+    font-weight: bold;
+    color: #1D736A;
+   }
       .nav-menu li {
         list-style-type: none;
         margin-bottom: 2px;
@@ -207,12 +194,11 @@
     padding-left: 100px;
 
 }
-.nav-menu {
-  list-style-type: none;
-  display: flex;
-  gap: 70px;
-  width: 46%;
-  
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    width: 46%;
 }
 .icon {
    display: none;
@@ -227,8 +213,7 @@
   .nav-menu li {
     cursor: pointer;
   }
-  
-  .nav-menu li.active::after {
+  .nav-menu li.active::after{
     content: "";
     display: block;
     height: 2px;
@@ -239,7 +224,7 @@
  
 
 
-@media screen and (min-width: 1025px) and (max-width: 1620px) {
+   @media screen and (min-width: 1025px) and (max-width: 1620px){
     .navbar{
         display: flex;
         gap: 40%;
@@ -270,26 +255,24 @@
   font-weight: 600;
 
 }
-
-  
-.nav-menu {
-  list-style-type: none;
-  display: flex;
-  gap: 70px;
-  width: 100%;
-  padding-left: 8%;
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    padding-left: 8%;
 }
 
 .nav-menu li {
   cursor: pointer;
 }
-
-.nav-menu li.active::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
+.nav-menu li.active:: after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
 }
+
 
 .icon {
   display: none;

@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import './index.css';
 import Logo from '../images/logo.png';
@@ -23,7 +21,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="nav-logo">
         <img src={Logo} alt="Rafiki" className='logo' />
-        <p>Dhakii</p>
+        <p>Dhaki</p>
       </div>
       <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
       {isMenuOpen && (
@@ -55,4 +53,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

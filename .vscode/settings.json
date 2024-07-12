@@ -1,0 +1,5 @@
+{
+  "css.format.enable": true,
+  "less.lint.duplicateProperties": "warning",
+  "css.completion.triggerPropertyValueCompletion": true
+}
