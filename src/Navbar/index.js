@@ -1,3 +1,4 @@
+
 import logo from "../image/logo.png";
 import "./index.css";
 import React, { useState } from "react";
@@ -16,6 +17,7 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
   return (
     <>
       <div className="nav">
@@ -69,3 +71,6 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+
+ 
+
