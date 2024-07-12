@@ -1,38 +1,17 @@
 import './Blogs.css';
-import logos from '../Images/logo.png';
 import rect from '../Images/rect.png';
 import caseStudy from '../Images/caseStudy.png';
 import trevorNoah from '../Images/trevorNoah.jpg';
-import React, { useState } from 'react';
-import { FaBars,FaTimes} from 'react-icons/fa';
+
 
 
 
 const BlogPage=()=>{
-    const [isOpen, setIsOpen] = useState(false);
-    
-
-    const toggleMenu=() =>{
-      setIsOpen(!isOpen);
-    };
+ 
 
     return(
-        <div className='Body'  isOpen = {isOpen}>
-            <div className='navbar'>
-                <img src={logos} alt='logo' id='logo'></img>
-
-                <button className='hamburger-button' onClick={toggleMenu}>
-            {isOpen ? <FaTimes/> : <FaBars />}
-          </button>
-
-                <div className={`items ${isOpen ? 'close'  : 'open'}`}>
-                    <a href='Home'>Home</a>
-                    <a href='Videos'>Videos</a>
-                    <a href='Podcasts'> Podcasts</a>
-                    <a href='Blogs' id='bl'>Blogs</a>
-                    <a href='Portfolios'>Portfolis</a>
-            </div>
-            </div>
+        <div className='Body' >
+      
             <div className='BlogsBody'>
                 <div className='text'>
                 <h2>Discover Transformative Insights in our Blog Library</h2>
@@ -59,7 +38,7 @@ const BlogPage=()=>{
                                 transformation in this <br/>
                                 comprehensive case study.<br/>
                                 </p>
-                            <button className='button'>Read</button>
+                            <a href='https://docs.google.com/document/d/199X7-9sKUUSAj0CozWxKJBb5OdhLZuNvtnUXM2-v0S0/edit?usp=sharing'><button className='button'>Read</button></a>
                         </div>
                     </div>
 
