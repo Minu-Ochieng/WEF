@@ -1,11 +1,12 @@
+import BlogPage from './Blogs_Articles/Blogs';
+import React from 'react'
+import Navbar from './Navbar'
+import LandingPage from './Landing-page'
+import Podcast from './Podcast'
+import VideoSection from './Video'
 
-import './App.css';
 
-import "./App.css";
-import Navbar from "./Navbar";
-import Podcast from "./Podcast";
-import LandingPage from './Landing-page/Index';
-import VideoSection from './Video';
+
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <LandingPage/>
       <Podcast/>
       <VideoSection/>
+      <BlogPage/>
     </div>
-  );
-}
+  )
+};
 
 export default App;
