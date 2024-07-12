@@ -266,12 +266,12 @@
 .nav-menu li {
   cursor: pointer;
 }
-.nav-menu li.active:: after{
+/* .nav-menu li.active:: after{
     content: "";
     display: block;
     height: 2px;
     width: 100%;
-}
+} */
 
 
 .icon {

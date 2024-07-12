@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+.heading{
+    font-weight: 800;
+    margin-top: 5%;
+    margin-left: 29%;
+    font-style: normal;
+    color: #17736A;
+
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 15%;
+    margin-top: 10%;
+   
+}
+
+.video1{
+    width: 90%;
+    height: 120%;
+  background-color: #f24c27;
+    border-radius: 20px;
+    margin-left: 4%;
+}
+
+.video2{
+    width: 90%;
+    height: 120%;
+  background-color: #f24c27;
+    border-radius: 20px;
+    margin-left: 4%;
+}
+
+.video3{
+    width: 90%;
+    height: 120%;
+  background-color: #f24c27;
+    border-radius: 20px;
+    margin-left: 4%;
+}
+
+.video4{
+    width: 90%;
+    height: 120%;
+  background-color: #f24c27;
+    border-radius: 20px;
+    margin-left: 4%;
+}
+
+.video5{
+    width: 90%;
+    height: 120%;
+  background-color: #f24c27;
+    border-radius: 20px;
+    margin-left: 4%;
+}
