@@ -63,7 +63,10 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     
 }
-
+.container{
+    display: block;
+    gap: 5%;
+}
 .watchButton{
     margin-top: -5%;
     margin-left: -6%;
